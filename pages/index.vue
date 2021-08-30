@@ -22,7 +22,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              documentation </a
+              null or empty string</a
             >.
           </p>
           <p>
