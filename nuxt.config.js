@@ -81,7 +81,7 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     // customVariables: ['~/assets/variables/_variables.sass'],
-    optionsPath: "./plugins/vuetify.js",
+    optionsPath: "./options/vuetify.js",
     rtl: true,
   },
 
