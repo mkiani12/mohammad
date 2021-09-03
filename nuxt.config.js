@@ -43,7 +43,8 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     // https://go.nu
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@nuxtjs/auth-next'
   ],
 
   // i18n module configuration
