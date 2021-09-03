@@ -36,7 +36,6 @@
               </v-list-item-content>
             </v-list-item>
           </template>
-
           <v-list>
             <v-list-item>
               <v-list-item-title>
