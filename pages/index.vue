@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <owllogo class="mt-16 mx-auto d-block"></owllogo>
-    <v-btn color="ex-primary-btn rounded-lg">mmd</v-btn>
+    <v-btn color="ex-primary-btn rounded-ex">mmd</v-btn>
   </v-container>
 </template>
 <script>
