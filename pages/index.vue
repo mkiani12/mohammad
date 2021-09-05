@@ -1,27 +1,13 @@
-<i18n lang="yaml">
-en:
-  welcome: 'Welcome'
-fa:
-  welcome: 'خوش آمدید'
-</i18n>
-
 <template>
-  <div>
-    this
-    <h1>{{ $t('welcome') }}</h1>
-
-    the beginning of the owlegram! mmwdi this
-    <h1>is</h1>
-    the beginning of the owlegram! mmwdi this
-    <h1>is</h1>
-    the beginning of the owlegram!
-
-    <h1>Made By MMd</h1>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, natus
-    dolorem. Distinctio at nesciunt quod omnis minima earum ratione, vitae amet
-    dicta dolores deleniti iste provident voluptatum soluta beatae debitis.
-  </div>
+  <v-container>
+    <owllogo class="mt-16 mx-auto d-block"></owllogo>
+    <v-btn color="ex-primary-btn rounded-lg">mmd</v-btn>
+  </v-container>
 </template>
 <script>
-export default {}
+import owllogo from '~/components/owllogo.vue'
+export default {
+  components: { owllogo },
+}
 </script>
+<style scoped></style>
