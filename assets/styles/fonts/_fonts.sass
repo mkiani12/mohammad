@@ -1,86 +1,68 @@
-// ---------------------------- font faces -----------------------------------
-  
 // poppins
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap')
 
 
-// vazir
-@font-face 
-  font-family: vazir
-  src: url('#{$vazir-path}/Vazir-Medium-FD.ttf')
+// ---------------------------- font vars -----------------------------------
 
+$poppins: 'Poppins', sans-serif
 
-@font-face 
-  font-family: vazir-light
-  src: url('#{$vazir-path}/Vazir-Light-FD.ttf')
-
-
-@font-face 
-  font-family: vazir-bold
-  src: url('#{$vazir-path}/Vazir-Black-FD.ttf')
-
-
-@font-face 
-  font-family: vazir-lite
-  src: url('#{$vazir-path}/Vazir-Thin-FD.ttf')
+$fw-exlight: '200'
+$fw-light: '300'
+$fw-regular: '400'
+$fw-medium: '500'
+$fw-semibold: '600'
+$fw-bold: '700'
 
 // ---------------------------- usable fonts -----------------------------------
 
-  /* poppins */
+/* poppins */
+.en-el
+  font-family: $poppins !important
+  font-weight: $fw-exlight !important
+
+.en-l
+  font-family: $poppins !important
+  font-weight: $fw-light !important
+
 .en
   font-family: $poppins !important
-
-
-.en-b
-  font-family: $poppins-b !important
-
+  font-weight: $fw-regular !important
 
 .en-m
-  font-family: $poppins-m !important
-
+  font-family: $poppins !important
+  font-weight: $fw-medium !important
 
 .en-sb
-  font-family: $poppins-sb !important
+  font-family: $poppins !important
+  font-weight: $fw-semibold !important
 
+.en-b
+  font-family: $poppins !important
+  font-weight: $fw-bold !important
+
+.en-el-a *
+  font-family: $poppins !important
+  font-weight: $fw-exlight !important
+
+.en-l-a *
+  font-family: $poppins !important
+  font-weight: $fw-light !important
 
 .en-a *
   font-family: $poppins !important
-
-
-.en-b-a *
-  font-family: $poppins-b !important
-
+  font-weight: $fw-regular !important
 
 .en-m-a *
-  font-family: $poppins-m !important
-
+  font-family: $poppins !important
+  font-weight: $fw-medium !important
 
 .en-sb-a *
-  font-family: $poppins-sb !important
+  font-family: $poppins !important
+  font-weight: $fw-semibold !important
 
-/* vazir */
-.pr
-  font-family: $vazir !important
-
-
-.pr-b
-  font-family: $vazir-bold !important
-
-
-.pr-l
-  font-family: $vazir-light !important
-
-
-.pr-a *
-  font-family: $vazir !important
-
-
-.pr-b-a *
-  font-family: $vazir-bold !important
-
-
-.pr-l-a *
-  font-family: $vazir-light !important
+.en-b-a *
+  font-family: $poppins !important
+  font-weight: $fw-bold !important
 
 // ---------------------------- font sizes -----------------------------------
 

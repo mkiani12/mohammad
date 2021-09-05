@@ -80,9 +80,10 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+    customVariables: ['~/assets/styles/vuetify/_variables.scss'],
     optionsPath: './options/vuetify.js',
     rtl: true,
+    treeShake: true,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
