@@ -1,5 +1,6 @@
 <template>
-  <v-container class="text-center d-flex flex-column page">
+<div id="ex-bg-first" class="page">
+  <v-container id="ex-bg-second" class="text-center d-flex flex-column page">
     <div class="d-flex flex-column align-center pt-12">
       <owllogo class="mt-16" height="166px"></owllogo>
       <svg class="ml-5 mt-7" width="217" height="49" viewBox="0 0 217 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,6 +73,7 @@
 
     <CopyRight/>
   </v-container>
+  </div>
 </template>
 <script>
 import CopyRight from '~/components/CopyRight.vue'
@@ -80,18 +82,24 @@ export default {
   components: { owllogo, CopyRight },
 }
 </script>
-<style>
-.subtitle {
-  letter-spacing: 0.32em;
-  font-size: 12px;
-}
-.privacy-policy {
-  line-height: 41px;
-  font-size: 17px;
-}
+<style lang="sass">
+.subtitle 
+  letter-spacing: 0.32em
+  font-size: 12px
 
-.page{
-  width: 100%;
-  height: 100%;
-}
+.privacy-policy 
+  line-height: 41px
+  font-size: 17px
+
+.page
+  width: 100%
+  height: 100%
+
+#ex-bg-first
+  background-image: url(~/assets/images/firstpage-bg.png)
+  background-position: 0px 0
+  background-size: 100%
+
+#ex-bg-second
+  background: linear-gradient(#fff7 ,#fffa , #fff , #fff) !important
 </style>
