@@ -1,8 +1,8 @@
 <template>
   <div id="ex-bg-first" class="page">
-    <v-container id="ex-bg-second" class="text-center d-flex flex-column page">
+    <v-container id="ex-bg-second" class="text-center px-6 d-flex flex-column page">
       <div class="d-flex flex-column align-center pt-12">
-        <owllogo class="mt-16" height="166px"></owllogo>
+        <owllogo class="mt-16" height="166"></owllogo>
         <svg
           class="ml-5 mt-7"
           width="217"
@@ -196,14 +196,14 @@
         </svg>
       </div>
 
-      <div class="pa-19 mx-3 my-auto en">
+      <div class="pa-19 my-auto en">
         <p class="privacy-policy">
           Read our <span class="primary--text">Privacy Policy</span>.Tap “Agree
           “ to accept the <span class="primary--text">Terms of service</span>
         </p>
       </div>
 
-      <nuxt-link class="mx-3" to="/LoginRegister">
+      <nuxt-link to="/LoginRegister">
         <v-btn
           color="primary"
           x-large
