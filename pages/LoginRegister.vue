@@ -3,7 +3,7 @@
     <v-row align="center" justify="center" class="mt-5">
       <v-col cols="6">
         <owllogo class="login-logo"></owllogo>
-        <h2 class="enp-b">OWLEGERAM <span class="f20">App</span></h2>
+        <h3 class="enp-b">OWLEGERAM <span class="f20">App</span></h3>
       </v-col>
       <v-col cols="6">
         <v-select
@@ -22,14 +22,16 @@
 
     <p class="text-center f14">Carrier SMS charge may apply</p>
 
-    <v-btn
-      color="primary"
-      x-large
-      block
-      class="mb-7 f20 ex-primary-btn rounded-ex next-btn"
-    >
-      Next
-    </v-btn>
+    <nuxt-link to="/EmailVerify">
+      <v-btn
+        color="primary"
+        x-large
+        block
+        class="mb-7 f20 ex-primary-btn rounded-ex next-btn"
+      >
+        Next
+      </v-btn>
+    </nuxt-link>
 
     <p class="f14 text-center">Or</p>
 
