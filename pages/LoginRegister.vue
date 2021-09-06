@@ -33,7 +33,7 @@
 
     <p class="f14 text-center">Or</p>
 
-    <v-row align="center" justify="center" class="mb-auto">
+    <v-row align="center" justify="space-around" class="mb-auto">
       <v-col cols="6">
         <v-btn class="py-9">
           <v-icon class="mr-2">mdi-google</v-icon>
