@@ -82,7 +82,6 @@ export default {
   vuetify: {
     customVariables: ['~/assets/styles/vuetify/_variables.scss'],
     optionsPath: './options/vuetify.js',
-    rtl: true,
     treeShake: true,
   },
 

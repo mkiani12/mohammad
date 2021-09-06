@@ -25,5 +25,5 @@ export default {
   icons: {
     iconfont: 'md',
   },
-  rtl: true,
+  rtl: false,
 }
