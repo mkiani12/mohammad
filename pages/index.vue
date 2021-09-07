@@ -1,6 +1,9 @@
 <template>
   <div id="ex-bg-first" class="page">
-    <v-container id="ex-bg-second" class="text-center px-6 d-flex flex-column page">
+    <v-container
+      id="ex-bg-second"
+      class="text-center px-6 d-flex flex-column page"
+    >
       <div class="d-flex flex-column align-center pt-12">
         <owllogo class="mt-16" height="166"></owllogo>
         <svg
@@ -208,7 +211,7 @@
           color="primary"
           x-large
           block
-          class="mb-7 ex-primary-btn rounded-ex"
+          class="mb-7 ex-primary-btn rounded-12"
         >
           Agree
         </v-btn>
@@ -233,10 +236,6 @@ export default {
 .privacy-policy
   line-height: 41px
   font-size: 17px
-
-.page
-  width: 100%
-  height: 100%
 
 #ex-bg-first
   background-image: url(~/assets/images/firstpage-bg.png)

@@ -19,6 +19,7 @@ export default {
       },
       light: {
         primary: '#2A87FF',
+        secondary: '#fff'
       },
     },
   },

@@ -31,7 +31,7 @@
         :placeholder="
           !mobileLogin ? 'Enter Email account ex, Gmail , yahoo' : ''
         "
-        class="rounded-ex ex-phone-input"
+        class="rounded-12 ex-phone-input"
         outlined
       ></v-text-field>
 
@@ -44,7 +44,7 @@
           color="primary"
           x-large
           block
-          class="mb-7 f20 ex-primary-btn rounded-ex next-btn"
+          class="mb-7 f20 ex-primary-btn rounded-12 next-btn"
         >
           Next
         </v-btn>
@@ -54,7 +54,7 @@
 
       <v-row align="center" justify="space-around" class="mb-auto">
         <v-col cols="6">
-          <v-btn block class="f12 px-1 rounded-ex ex-secondary-btn">
+          <v-btn block x-large class="f12 px-1 rounded-12 ex-secondary-btn">
             <v-icon class="mr-2">mdi-google</v-icon>
             Login with Google
           </v-btn>
@@ -63,7 +63,8 @@
           <v-btn
             v-if="mobileLogin"
             block
-            class="f12 px-1 rounded-ex ex-secondary-btn"
+            x-large
+            class="f12 px-1 rounded-12 ex-secondary-btn"
             @click="mobileLogin = false"
           >
             <v-icon class="mr-2">mdi-email</v-icon>
@@ -72,7 +73,8 @@
           <v-btn
             v-else
             block
-            class="f12 px-1 rounded-ex ex-secondary-btn"
+            x-large
+            class="f12 px-1 rounded-12 ex-secondary-btn"
             @click="mobileLogin = true"
           >
             <v-icon class="mr-2">mdi-phone</v-icon>
