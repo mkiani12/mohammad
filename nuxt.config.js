@@ -1,5 +1,4 @@
 export default {
-
   target: 'static',
 
   // server: {
@@ -90,6 +89,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
+    publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   },
 }
